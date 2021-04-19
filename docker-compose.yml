@@ -3,7 +3,7 @@ version: "3"
 services:
   web:
     build: .
-    #image: "gabydias/myfirstapp:2.0"
+    #image: "wesleyitcloud/myfirstapp:2.0"
     environment:
       - MESSAGE=Usando Variavel de Ambiente para Mudar a Mensagem do Site!
     networks:
